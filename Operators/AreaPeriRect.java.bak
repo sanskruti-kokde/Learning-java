@@ -1,0 +1,16 @@
+class AreaPreiRect
+{
+	public static void main (String [] args)
+	{
+		float width = 4.5f ;
+		float height= 7.9f;
+
+		float area = width*height;
+
+		System.out.println("The area of the rectangle is :"+area);
+
+		float perimeter = width+width+height+height;
+		System.out.println("The perimeter of the rectangle is :"+perimeter);
+
+	}
+}

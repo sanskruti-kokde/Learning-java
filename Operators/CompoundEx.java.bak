@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class CompoundEx 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your makrs  : ");
+		int m = sc.nextInt();
+
+		String op = ((m>=35)?("Pass"):("Fail"));
+		int per = (m*100)/600;
+
+		System.out.println("You got "+per+" %");
+		System.out.print(op);
+	}
+}
